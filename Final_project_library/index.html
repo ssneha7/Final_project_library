@@ -1,0 +1,103 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>lending library</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main>
+    <h1>the library</h1>
+    <p>search for author by name</p>
+    <input id="authorSearch" >
+    <button type="button" onclick="authSearch()">search</button>
+
+
+    <p id='result'></p>
+ <ol id="allBooks">
+
+    </ol>
+
+    <ol id="allBooks">
+
+    </ol>
+
+
+
+    <h2>add a book to the library</h2>
+    <input id="inputauthor">
+    <input id="inputtitle">
+    <button type="button" onclick="addBook()">add</button>
+
+    <h2>books currently in the library</h2>
+    <button type="button" onclick="showAllBooks()">show books</button>
+    <ol id="allTheBooks">
+
+    </ol>
+
+     <div class="user_form">
+
+<h1>User Login</h1>
+
+
+  <label for="email">Id</label>
+  <input type="email"  name="useremail" id="login_id" >
+
+
+
+  <label for="name">Password</label>
+  <input type="password"  name="username" id="login_password" >
+ 
+  <input type="submit" onclick="Userlogin()" value="submit">
+ 
+
+
+ <div class="user_form">
+
+<h1>User Registration</h1>
+ 
+  <label for="name">Name</label>
+  <input type="text"  name="username" id="name" placeholder="abc">
+
+  <label for="name">Department</label>
+  <input type="text"  name="username" id="department" placeholder="Business">
+
+ 
+ 
+  <label for="email">Email</label>
+  <input type="email"  name="useremail" id="email" placeholder="abc@email.com">
+ 
+   <label for="telephone">Telephone</label>
+  <input type="tel"  name="userephone" id="telephone" placeholder="987654321">
+
+
+  <label for="name">Password</label>
+  <input type="password"  name="username" id="user_password" placeholder="your password">
+
+ 
+ 
+ <input type="reset" value="reset">
+<input type="submit" onclick="createUser()" value="submit">
+ 
+
+
+
+
+
+
+
+ </div>
+
+
+
+
+
+
+
+
+  </main>
+ 
+  <script src="dom1.js"></script>
+</body>
+</html>
